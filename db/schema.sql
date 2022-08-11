@@ -18,7 +18,7 @@ CREATE TABLE roles (
     ON DELETE SET NULL
 );
 
---How do I assign a manager ID? 
+
 CREATE TABLE employee (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     first_name VARCHAR(30),
@@ -27,5 +27,7 @@ CREATE TABLE employee (
     manager_id INT,
     FOREIGN KEY (roles_id)
     REFERENCES roles(id)
+    -- FOREIGN KEY (manager_id)
+    -- REFERENCES employee(id)
     ON DELETE SET NULL
 );
