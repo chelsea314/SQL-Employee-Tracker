@@ -3,7 +3,7 @@
 # Overview
 The purpose of this project is to build a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.
 
-There are still some bugs on some of the update queries. I am continuing to work through them as well as adding manager roles.
+There is still a bug on the update query. I am continuing to work through it as well as adding manager roles.
 
 <br>
 
